@@ -5,33 +5,31 @@ import Card from "./Card";
 
 const projects = [
   {
-    title: "Little Lemon",
+    title: "Little Lemon Restaurant",
     description:
       "The Web App for a Traditional Italian Restaurant called 'The Little Lemon'",
     getVideoSrc: () => require("../images/ScreenRecordingLittleLemon.mp4"),
-    // getImageSrc: () => require("../images/photo1.png"),
     url: "https://github.com/TandorukCan/little-lemon",
   },
   {
     title: "White Butterfly Holistics",
-    description:
-      "This webpage is for a client who is providing various services. She contacted me expressing her wish to get her project off of wix. I've recreated the front-end of her website using React. Currently in touch with her about the continuation of her project. ",
+    description: `This webpage is for a client who is providing reiki treatment. Upon her wish to get her project off of wix, I've recreated the front-end of her web app using React. Currently in touch with her about the continuation of the project. You can check her website on wix from https://www.whitebutterflyholistics.co.uk/`,
     getVideoSrc: () => require("../images/ScreenRecording-WBH.mp4"),
-    // getImageSrc: () => require("../images/photo2.png"),
+    url: "https://github.com/TandorukCan/white-butterfly",
   },
   {
     title: "Ellen K Stone",
     description:
-      "The Webpage for Ellen K. Stone. She is a multidiciplinary creative. In her webpage she's providing various services from graphics design to photography",
+      "The Webpage for another potential client of mine: Ellen K. Stone. She is a multidiciplinary creative. I've recreated her website from wix, as she no longer wanted to pay them for subscription. You can check the wix version of her page from: https://www.ellenkstone.co.uk/",
     getVideoSrc: () => require("../images/ScreenRecording-EllenKStone2.mp4"),
-    // getImageSrc: () => require("../images/photo3.png"),
+    url: "https://github.com/TandorukCan/ellen-kamenik",
   },
   {
     title: "Portfolio Project",
     description:
       "This is the project that's currently being displayed to you. ",
     getVideoSrc: () => require("../images/ScreenRecordingPortfolio.mp4"),
-    // getImageSrc: () => require("../images/photo4.png"),
+    url: "https://github.com/TandorukCan/portfolio-project",
   },
 ];
 
