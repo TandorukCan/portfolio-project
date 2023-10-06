@@ -25,8 +25,15 @@ const Card = ({
   // Feel free to import other UI components from Chakra UI if you wish to.
 
   return (
-    <VStack borderRadius="3%" bg="white" color="black" alignItems="start">
+    <VStack
+      borderRadius="3%"
+      bg="white"
+      color="lightgray"
+      alignItems="start"
+      backgroundColor="#6d41a1"
+    >
       <Video
+        style={{ borderRadius: "25px" }}
         loop
         muted
         controls={[
@@ -49,7 +56,11 @@ const Card = ({
           // width="100%"
           // height="auto"
           // aspectRatio="16 / 8.35"
-          style={{ width: "100%", height: "auto", aspectRatio: "16 / 8.35" }}
+          style={{
+            width: "100%",
+            height: "auto",
+            aspectRatio: "16 / 8.35",
+          }}
         />
       </Video>
 
@@ -68,7 +79,7 @@ const Card = ({
       /> */}
       <Stack padding="3%" spacing="3%">
         <Heading>{title}</Heading>
-        <Text color="darkslategrey">{description}</Text>
+        <Text color="lightgray">{description}</Text>
         <HStack>
           <a href={url}>
             <Text fontWeight="bold">See more</Text>
