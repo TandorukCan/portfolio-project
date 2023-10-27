@@ -25,11 +25,10 @@ const projects = [
     url: "https://github.com/TandorukCan/ellen-kamenik",
   },
   {
-    title: "Portfolio Project",
-    description:
-      "This is the project that's currently being displayed to you. ",
-    getVideoSrc: () => require("../images/ScreenRecordingPortfolio.mp4"),
-    url: "https://github.com/TandorukCan/portfolio-project",
+    title: "Fruit Slicing Game (JQuery)",
+    description: "A simple fruit slicing game made with JQuery ",
+    getVideoSrc: () => require("../images/ScreenRecording_FruitGame.mp4"),
+    url: "https://github.com/TandorukCan/fruit-slicing-game",
   },
 ];
 
