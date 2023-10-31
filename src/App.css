@@ -11,6 +11,29 @@
   padding: 4vh 5vw;
 }
 
-.css-1up5a45 {
+div.css-1up5a45 {
   gap: 5vw;
+}
+
+div.chakra-stack.css-18zqmo9 {
+  max-width: 60vw;
+  width: 97vw;
+}
+
+@media only screen and (max-width: 1080px) {
+  div.css-1up5a45 {
+    display: flex;
+    flex-direction: column;
+  }
+  h1#projects-section {
+    display: flex;
+    margin: auto;
+  }
+
+  div.chakra-stack.css-18zqmo9 {
+    width: 60vw;
+    min-width: 18.5em;
+    padding: 0;
+    margin: 0;
+  }
 }
