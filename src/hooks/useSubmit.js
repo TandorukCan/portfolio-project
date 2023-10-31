@@ -1,23 +1,20 @@
 import { useState } from "react";
 
-const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
-
-/**
- * This is a custom hook that can be used to submit a form and simulate an API call
- * It uses Math.random() to simulate a random success or failure, with 50% chance of each
- */
 const useSubmit = () => {
   const [isLoading, setLoading] = useState(false);
   const [response, setResponse] = useState(null);
 
   const submit = async (url, data) => {
-    // const random = Math.random();
     setLoading(true);
     try {
-      await wait(2000);
-      // if (random < 0.5) {
-      //   throw new Error("Something went wrong");
-      // }
+      await window.Email.send({
+        SecureToken: "85c6f47d-0023-4af2-9421-ff4baae7b410",
+        To: "tandorukcan@gmail.com",
+        From: "tandorukcan@gmail.com",
+        Subject: `You have a message from ${data.firstName}`,
+        Body: `You have received the following message from ${data.email}:
+        ${data.comment}`,
+      });
       setResponse({
         type: "success",
         message: `Thanks for your submission ${data.firstName}, we will get back to you shortly!`,

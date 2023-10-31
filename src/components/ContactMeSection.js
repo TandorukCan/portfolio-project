@@ -72,7 +72,7 @@ const LandingSection = () => {
                 <FormLabel htmlFor="firstName">Name</FormLabel>
                 <Input
                   id="firstName"
-                  name="firstName"
+                  name="user_name"
                   {...formik.getFieldProps("firstName")}
                 />
                 <FormErrorMessage>{formik.errors.firstName}</FormErrorMessage>
@@ -83,7 +83,7 @@ const LandingSection = () => {
                 <FormLabel htmlFor="email">Email Address</FormLabel>
                 <Input
                   id="email"
-                  name="email"
+                  name="user_email"
                   type="email"
                   {...formik.getFieldProps("email")}
                 />
@@ -105,7 +105,7 @@ const LandingSection = () => {
                 <FormLabel htmlFor="comment">Your message</FormLabel>
                 <Textarea
                   id="comment"
-                  name="comment"
+                  name="message"
                   height={250}
                   {...formik.getFieldProps("comment")}
                 />
