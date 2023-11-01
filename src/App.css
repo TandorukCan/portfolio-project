@@ -20,6 +20,14 @@ div.chakra-stack.css-18zqmo9 {
   width: 97vw;
 }
 
+div.chakra-stack.css-1qw10ba {
+  border-radius: 25px;
+}
+
+div.css-1erzwaw {
+  z-index: 300;
+}
+
 @media only screen and (max-width: 1080px) {
   div.css-1up5a45 {
     display: flex;
@@ -35,5 +43,10 @@ div.chakra-stack.css-18zqmo9 {
     min-width: 18.5em;
     padding: 0;
     margin: 0;
+  }
+
+  h1#contactme-section.chakra-heading.css-1dklj6k {
+    display: flex;
+    margin: auto;
   }
 }

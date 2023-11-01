@@ -82,7 +82,7 @@ const Card = ({
         <Text color="lightgray">{description}</Text>
         <HStack>
           <a href={url}>
-            <Text fontWeight="bold">See more</Text>
+            <Text fontWeight="bold">Check the source code on GitHub</Text>
           </a>
           <FontAwesomeIcon icon={faArrowRight} size="1x" />
         </HStack>
